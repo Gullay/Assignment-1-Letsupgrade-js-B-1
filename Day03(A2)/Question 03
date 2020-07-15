@@ -1,0 +1,25 @@
+Avialable DataTypes in js:
+
+there are several data types in javascript and these are divided into 
+three main categories, namely
+
+1. primitive 
+2. composite
+3. special
+
+1.Primitive:
+  . String
+  . Number 
+  . Boolean 
+are primitive data types.
+
+2.composite:
+  . Object 
+  . Array
+  . Function
+are composite date types
+
+3.sepecial:
+  . Null
+  . undefined
+are special data types
