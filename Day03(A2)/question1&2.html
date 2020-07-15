@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+//Question 01
+/*
+warn()	            |  Outputs a warning message to the console
+error()	            |  Outputs an error message to the console
+assert()	    |  If assertion is false it Writes an error message to the console.
+clear()	            |  Clears the console
+count()	            |  Logs the number of times that this particular call to count() has been called
+group()	            |  Creates a new inline group in the console.
+groupCollapsed()    |  Creates a new inline group in the console.
+groupEnd()	    |  Exits the current inline group in the console
+info()	            |  To Output an informational message to the console
+log()	            |  Outputs a message to the console
+table()	            |  Displays data in a table
+time()	            |  To track how long an operation takes we can Start a timer.
+timeEnd()           |  Stops a timer that was previously started by console.time()
+trace()	            |  Outputs a stack trace to the console
+*/
+  
+//----------------------------------------------------------------------------------------------
+
+//Question 02
+/* var:
+ var is used to declare a global variable of any type e.g,[string , int , array , object] 
+ and its value can be update and can be re-declare in its scope whenever needed. we can 
+ initialize var as undifined.
+ code example is given below:
+ */
+var country;
+var country = "India"
+console.log(country)
+
+// we can update its value
+
+country = "Pakistan"
+console.log(country)
+
+//------------------------------------------------------------------------------------------------
+       
+/* let:
+        it can be used to declare a variable in a block of code. it can be refer as local variable
+        these can be updated but we can not re-declare them. And these are not initialize
+         */
+// we can not re-declare a variable using let, it gives us error e.g,    
+//let country="UK";
+//console.log(country)
+
+//but we can declare it in a block of code, like
+{
+let country="UK";
+console.log(country)  
+}
+
+//--------------------------------------------------------------------------------------------------
+
+/*Const:
+        const declares an immutable read-only reference value. we can not update nor 
+        re-declare it. like
+
+*/
+const name = "Gulzar"
+console.log(name)
+
+//trying to update its value, but it will give us an error
+name = "Hussain"
+console.log(name)
+
+        </script>
+</body>
+</html>
+
+
